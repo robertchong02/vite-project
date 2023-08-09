@@ -1,5 +1,4 @@
-import './style.css'
-import * as THREE from "three"
+import * as THREE from "three";
 const table = [
 	'H', 'Hydrogen', '1.00794', 1, 1,
 	'He', 'Helium', '4.002602', 18, 1,
@@ -381,4 +380,3 @@ fetch("./data/friends_and_followers/your_friends.json")
     renderAll();
   })
   .catch((error) => console.error("Error fetching JSON:", error));
-
